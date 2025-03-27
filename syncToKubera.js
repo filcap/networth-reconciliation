@@ -35,6 +35,19 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function countMappedKuberaAccounts(mapping) {
+  const uniqueIds = new Set();
+
+  for (const map of Object.values(mapping)) {
+    const id = map.kubera_account_id;
+    if (id && id.trim() !== '') {
+      uniqueIds.add(id.trim());
+    }
+  }
+
+  return uniqueIds.size;
+}
+
 async function updateKuberaItem(account, map) {
   const label = `${map.budget_name} → ${map.ynab_account_name}`;
   const kuberaId = map.kubera_account_id;
@@ -70,6 +83,9 @@ async function updateKuberaItem(account, map) {
 }
 
 async function syncAll() {
+    const totalMappedKuberaAccounts = countMappedKuberaAccounts(mapping);
+    console.log(`\n📦 ${totalMappedKuberaAccounts} unique Kubera accounts mapped.`);
+
     console.log('\n🔄 Syncing YNAB accounts to Kubera:\n');
   
     const processedBudgetIds = new Set();
