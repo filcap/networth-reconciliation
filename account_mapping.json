@@ -1,0 +1,848 @@
+{
+  "73d504f7-e5e7-42c5-aa64-b265cd23a489": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcb8 Seabank Savings",
+    "currency": "PHP",
+    "kubera_account_id": "57d6ee9d-a2d8-4715-9294-ffdd5eace417"
+  },
+  "e1795539-351d-49eb-af0d-dbac2e83ccd7": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\uddf5\ud83c\udded PHP",
+    "currency": "PHP",
+    "kubera_account_id": "c69014e3-f6d8-4a3f-ae5b-0fbe707a4515"
+  },
+  "01e6379e-0cad-40f5-b2ea-91a30254f8cf": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcf3 GCash",
+    "currency": "PHP",
+    "kubera_account_id": "ed8bcacc-dc43-408a-adb6-8d4046dd1a3c"
+  },
+  "1df2bc6c-5091-4203-a1c4-cfc1b2d5687a": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcb3 BPI Gold Rewards",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "80edb133-2819-419b-bda7-6dc9b79fe50b": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 OwnBank ",
+    "currency": "PHP",
+    "kubera_account_id": "7a501fc1-083e-4231-b359-a9ca59920426"
+  },
+  "cc92d41c-f303-4f4c-b9bb-dc543fdcc0c0": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 UNO ",
+    "currency": "PHP",
+    "kubera_account_id": "66df3a77-700f-4499-99f3-3ccec08833f5"
+  },
+  "29674e2e-9bfa-41ae-a67a-40d43bdedb95": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 Tonik ",
+    "currency": "PHP",
+    "kubera_account_id": "107b07ff-e8cc-4eb6-8178-455124b26f59"
+  },
+  "62f89760-7c96-47b1-9eae-6626804f107c": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 UnionBank ",
+    "currency": "PHP",
+    "kubera_account_id": "596be8f3-a97a-4199-bac2-65367495f554"
+  },
+  "77b74d7b-742f-489b-af8a-e1452293b5e4": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 CIMB ",
+    "currency": "PHP",
+    "kubera_account_id": "bb7b572a-c40b-437c-a8d4-ecb68e2c317a"
+  },
+  "49c691d5-ae59-412f-9a98-3f6e7243d92f": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 BPI ",
+    "currency": "PHP",
+    "kubera_account_id": "0a8cbe44-f30b-4f86-823c-8a117529fbe9"
+  },
+  "bbbca596-afc8-44fa-974d-047ad75e5367": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 BDO ",
+    "currency": "PHP",
+    "kubera_account_id": "179c4119-1c41-4fd3-97c1-ecd652b87916"
+  },
+  "19509217-c34f-4e67-b840-b539c53c2b0b": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udd8b\ufe0f PBCOM ",
+    "currency": "PHP",
+    "kubera_account_id": "69149c2c-a35d-4e22-aa26-73a3b55888d0"
+  },
+  "5f5299e0-1557-4f89-8947-4a830ade040d": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce6 Maya Savings",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "4676a476-62e9-4709-842f-e2f48564d505": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udce8 Lala Move",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "f10184e3-73c7-41ba-abdf-064cac42e930": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udc59 Strip Wax",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "1e152896-5568-4640-9884-09a0e937cb47": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\udfb0 ArenaPlus",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "af28c2a3-b08a-4611-a25b-99f858a5b5e0": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\udfd8 Portico Ametrine 4019",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "177a0d02-24a9-4524-937f-2eb56000c2d4": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\udd7f\ufe0f Portico Parking B4 116",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "e2c41d6c-728a-49a9-80c2-2921471921e4": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\udfd7\ufe0f Alviera at Versala B39 L32",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "4709ba86-2bed-475b-b756-19f5129ca253": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcca GFunds",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "85d775f2-c131-4e77-89f1-42807b256441": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\ude89 Wise",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "54ef16ae-90c6-45cf-899a-192237bdb578": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcdd Portico Condo Loan",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "a0485f39-cb46-4fea-a854-838d819e8e46": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcdd Portico Parking Loan",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "6224b089-5cc0-447b-a2d0-21904fd34133": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udcdd Alviera Loan",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "d6e41184-2cdc-47d5-a992-b3a8bf8b7cc3": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\u2615\ufe0f SMEG Voucher",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "a53dce0d-3c93-4ccb-8b65-46120dc47898": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83c\udfa9 Topoff Accounts",
+    "currency": "PHP",
+    "kubera_account_id": "b96aa275-0ae0-4d26-8fc6-cf1bc59da49e"
+  },
+  "fd4f57bf-46f6-4896-ab46-06de950201d4": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udd11 Security Deposits",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "86237fb8-6993-41d8-9cdb-7082dbdeb94f": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udd6f\ufe0f Kandeladia",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "7660e469-f467-4d9c-8d96-67c9119bcc17": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\ud83d\udc85\ud83c\udffd Lokahi",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "b110825d-f04b-42af-9d2f-7193fd0db98b": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "\u2708\ufe0f BPI Reward Points",
+    "currency": "PHP",
+    "kubera_account_id": ""
+  },
+  "ffd08bb0-5d9f-496a-9ae3-d9907d1050dc": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb8 M1 Earn",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "665320a5-d467-446a-9919-f1154ea6a493": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb8 M1 Spend",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "60527753-1e8e-4c45-adb4-816723d438c3": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfe7 Fidelity Cash",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c0d74b0d-4f9c-4491-8ce3-b934ced5c28c": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udce6 BECU Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7199f397-35f6-4f8a-84de-5b5ac0710c79": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb1 PBCOM Dollars",
+    "currency": "",
+    "kubera_account_id": "e3dc1a35-3cf5-471c-bce8-a199c6a900a4"
+  },
+  "2a173aaa-de0e-4f02-b526-5dcd47007be1": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udf9f Yotta Savings",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "2c4bc9b3-8d9a-4b89-8647-756e64403a0a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\uddfa\ud83c\uddf8 USD",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "25d3af71-28bd-4ffd-86b1-62cddab29286": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\uddf2\ud83c\uddfd MXN",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c9c8cd41-a1f4-4bd6-a635-3fee90158d79": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb3 SkyPass Visa Signature",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "83a95f80-4bf4-46b1-a81f-f5cb883d7bae": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb3 AMEX Platinum",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "ce02df98-6d09-4bd9-a342-1c4541135180": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb3 AMEX Gold",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c71d1f40-6761-446c-85be-bb9e8d3738bd": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb3 AMEX Green",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "167f5b67-6252-4684-a036-019e8d34151a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb3 AMEX Blue",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c99679bc-9dcb-40f0-a072-c1f6c3c12830": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f CapitalOne Venture X",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "0d8f8803-8272-431d-8cd4-97acfe201db0": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f BECU Visa",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "9e5a2c40-d1dd-483c-b8fc-473b73c36f12": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f Discover IT",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7755ab66-8e11-4dfd-afac-7085dd22cdeb": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f BoA Unlimited Cash Rewards",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "6cf574ea-1583-4ef4-909b-91bf59a388a2": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f Apple MasterCard",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "734647f1-ad17-4409-ab87-8279280edcea": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f Chase Freedom",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "b18e9b9c-d764-4de0-aacc-03578bf09e43": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f CapitalOne QuickSilver",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5fc20cbe-33b3-4217-a569-1f865f3b81e2": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83e\uddc8 M1 Margin",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "2f37fcf6-8901-41a1-adf9-bcfcb2b836c7": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f Ameris Visa Platinum",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5ce7d7d1-c64c-4305-b0e4-99c8d9303bea": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2696\ufe0f Chase Freedom Unlimited",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "d64ba1c9-e308-4c39-befe-c71b9d8221c3": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udd0f Ameris Margin",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "847f61b6-d15f-45f6-a327-628a77afa64f": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb0 Penn Mutual WL",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "662de3b7-9746-4f2c-951b-63921919875a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb0 Mass Mutual LTC",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "62c75e44-b140-4890-b591-cc2f2ddb746b": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb0 Treasury Direct",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7a82faaf-73c3-4730-8c6b-6c4ba8f7b317": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfe6 Penn Mutual Policy Loan",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "174aec3a-0343-4439-af9f-2c81cd4f5c3a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfe6 M1 Borrow",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "67390071-2dce-46b4-919b-bc7868506c38": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfda Freedom Fund",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a2c35bbf-9a28-4cdf-8a08-ba6074f50ad2": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udf5c What the PHO Note",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "90fd63ba-83a2-45cb-bffb-2fefe3120d19": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2615\ufe0f La India Coffee Farm",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "16a87ae2-0bfc-4836-9d0f-8ed47e688857": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcc8 M1 Invest",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "76867886-f02b-4c2e-86db-8592ac68a154": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcc8 Fidelity Brokerage",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "2aa47872-861b-41c3-941b-4438b3a2ae1f": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83e\udde7 Crypto",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "dde7342b-3b75-4b8b-a247-e307afa1fd38": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfda Norada Note",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "673ca0a7-6682-418d-91df-2330a99d41e1": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udcb0 Penn Mutual WL #2",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "17f4d789-5112-40fb-8db9-44afaa4cec31": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd Traditional IRA (Fidelity)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "91b59e1d-dbcd-4a4f-ab41-9bd1f612ddcb": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd Roth IRA (Inspira)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f691a6a7-e196-42f0-9258-d3732468b74e": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd Roth IRA (Fidelity)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "021b3c28-6c8b-4bbe-93f4-9af8c9b83c53": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd HSA (Fidelity)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "6b375462-5d4c-4f25-bd10-05cb32ebe5ed": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd HSA (HealthEquity)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "6ab43169-6021-42ab-9a4b-a6b11ce83de6": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd HSA (Optum)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5c42f5d2-7967-4a1a-be76-16b4b6811bab": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd\ufe0f 401k (Form Factory)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "e3e0b42b-5459-44cc-8ecb-066fcb19ec81": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd 401k (Slavic)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "623023f8-7146-4cc6-b1e3-70ccd6e1770a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd 401k (Fidelity)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "8db43c78-bdd1-4b53-8f40-705e866a836b": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83c\udfdd 401k (Mykplan)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "ba577436-24a0-4021-975f-9bd64905f3d0": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\uddf3 Security Deposit",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "9253d671-d799-481a-b15a-e9d374962a34": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\ud83d\udce6 AMEX Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "6678d8d2-126e-40d6-b781-14b1ffc8d28c": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2708\ufe0f AMEX Miles",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "b28b3335-e808-47bb-8e93-f7461eeeb38a": {
+    "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+    "ynab_account_name": "\u2708\ufe0f CapitalOne Miles",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "94d87a78-7bda-4880-80a3-5f671a8189f8": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcb8 BlueVine Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "48ed4dc7-13cc-4c1c-8274-193c1327f65d": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcb8 Kabbage Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "70f05a28-70f8-45dc-ae97-7ed881795392": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udce6 US Bank Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "cd4891e2-0723-416d-8a0c-e02de1eab38a": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udce6 BECU Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "b04c7989-3727-4734-8cfd-4353ab8ea254": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83e\uddc8 US Bank Margin",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c5695971-1298-4936-9aa9-cf59c7f05288": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcb3 BECU Visa Cash Rewards",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "e335a0a8-b2c6-4526-9a17-2625acc8a9f0": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcb3 AMEX Business Plus",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "63c5811c-10e9-4404-8600-85189918dcb9": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f AMEX Bonvoy Business",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "00bf0b06-dabe-4661-8515-1f3ca365ee9b": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f Chase Ink Unlimited",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "465e7a03-d421-4d08-8ea7-b15b2dbcb7e5": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f Chase Ink Cash",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a84f4d0b-f0ac-429d-a5e6-d442faaf38d7": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f BoA Business Cash",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "e7a6d053-48e9-4848-8eb9-46207faefad0": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f US Bank Edge Platinum",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a01a4b25-468f-4cdc-85f6-7ae7b717a142": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc Investment Realty Dallas",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f8c012df-3365-4e21-bf22-9fcc4d19e0e5": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f Wells Fargo Visa",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "3adecdfd-147d-4655-ab57-79ae86e87238": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2696\ufe0f Ameris Visa Platinum",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "d0836ff4-46af-4857-a04a-3d4914955e5c": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc McCaw",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7c0496c9-0da2-4632-b665-86365b2d05f1": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc PARC",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f12cfe67-a2dc-4ba3-9f21-aeb7a9667509": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc Mid-South",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "c2564dea-0f27-4b46-b6f1-1a39bb98f60b": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc Table Property Management",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "dedb9426-fd8a-45a2-91cc-32081453de8c": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc Spartan Invest",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5745a8bc-7643-4f6a-bc58-8ba87a73ab4c": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (TX)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "204d7b5f-87c4-4803-a89f-4be5e16ff32a": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (IN)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "41a6c779-5c05-4486-880c-c625ba4f57d3": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (TN1)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "85449112-fc09-4d29-ab0f-cbbe1d1c1e53": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (TN2)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f350ec83-50c9-4aed-8cf5-fc38d4ad644b": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgages (OK1)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "ad8d255f-a03a-4add-a88b-f025e476393c": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (OK2)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "2c8a342a-73db-4ff1-b889-e0053fbbd34c": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (OK3)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5cd79aaf-2cc1-4721-ab12-a747df5eea84": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (AL1)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a8207abb-c095-4d63-ac52-74328a1841a2": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Mortgage (AL2)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "87c361a4-f82b-44ab-a1e9-fda60408d525": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Private Loan (AL3)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a72d20b7-549c-4076-a815-da84b00000b0": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 TX (Miller)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "809a1d75-eb96-43c5-95c7-b92d485555b6": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 IN (Mitthoeffer)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "19b960ad-2869-4a33-a9b4-0a639fb991a3": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 TN1 (Tampa)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "8c8033f1-7866-4ab4-b042-416179c44431": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 TN2 (Heber)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "038fd243-f739-4324-8f46-62798f2bd270": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 OK1 (39th)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "004619fb-d9ae-4c79-8769-c720b29377b2": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 OK2 (Longridge)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "9aaf52f3-53ad-4345-8f0f-310f80cdd33e": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 OK3 (32nd)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "77c41202-af7e-4209-9f3b-a861ae1b47e0": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 AL1 (Alvin)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "b788de11-29e6-4d83-a90c-6d63eb97cfbb": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 AL2 (Cooperfield)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "212aa81a-a9d7-46c8-9e11-e9b2338e00fb": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8 AL3 (Cherry)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "75462e25-50a4-40f6-a98b-556d5243749b": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfd8\ufe0f AL4 (Zinnia)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7ad5b8c7-b2e7-497b-905a-5354bfa18135": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcbc Security Deposits",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f8a9af73-47b9-404f-8c4d-9e74d480b6b3": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfe6 US Bank Line of Credit",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "ae1b36cc-1496-47e9-ab48-06610b9f0979": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfe6 AMEX Line of Credit",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "47f33da1-41a2-4094-b486-d85735062ebd": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udce6 BECU Savings",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "b7344338-ba2e-4ab5-ac18-624e71ce0917": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2708\ufe0f Chase Miles",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "4169c9d4-d46d-40d3-a257-2d3df090fd73": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\u2708\ufe0f BoA Cash Rewards",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "8b7b6189-52b3-4eec-8c88-c2405da434cd": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udcdd Private Loan (AL4)",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "f6f9bdda-7d49-424a-bb2e-8b38d60b60ba": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83d\udd11 Security Deposits",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "6734c1e6-6826-4dd5-9b72-332f5647f0cb": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83e\uddd1\ud83c\udffe\u200d\u2696\ufe0f Enra Law",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "7784dcfe-c78f-4e7f-9bf5-49df07b7b7c7": {
+    "budget_name": "\ud83c\udfe0 FilCap Investments",
+    "ynab_account_name": "\ud83c\udfa9 Top Off Accounts",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "d2a28209-d9f1-4590-aab1-ad00ca7177fa": {
+    "budget_name": "\ud83c\udded\ud83c\uddf0 Hong Kong",
+    "ynab_account_name": "\ud83c\udded\ud83c\uddf0 HKD",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "45245bba-1e9e-4fb0-9c4b-e61706267fe9": {
+    "budget_name": "\ud83c\udded\ud83c\uddf0 Hong Kong",
+    "ynab_account_name": "\ud83d\udc19 My Octopus",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "5025a673-67a0-4b13-8a5d-7d297319ff88": {
+    "budget_name": "\ud83c\uddf9\ud83c\udded Thailand",
+    "ynab_account_name": "Cash",
+    "currency": "THB",
+    "kubera_account_id": ""
+  },
+  "202d9d3e-1b64-4c64-b366-39b520e3374a": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\ud83d\udcb0 Cash",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "161cda45-b35d-4ecd-b3c9-cc369770cdbb": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\ud83d\udcb8 BBVA Checking",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "a99534e5-e259-497d-a688-77932c47bab4": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\ud83d\uddf3 Security Deposit",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "811441bd-ce4b-4ade-80f3-3e13af2c2170": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\ud83d\udcb3 BBVA Azul Visa",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "425027c3-136c-4976-b664-c5ef99caf09f": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\ud83c\udfb0 caliente.mx",
+    "currency": "",
+    "kubera_account_id": ""
+  },
+  "e504d092-c20f-464a-ac89-d2e0a198fdaf": {
+    "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
+    "ynab_account_name": "\u2708\ufe0f BBVA Points",
+    "currency": "",
+    "kubera_account_id": ""
+  }
+}
