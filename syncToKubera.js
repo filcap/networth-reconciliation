@@ -5,12 +5,14 @@ const crypto = require('crypto');
 
 const KUBERA_API_KEY = process.env.KUBERA_API_KEY;
 const KUBERA_API_SECRET = process.env.KUBERA_API_SECRET;
+const KUBERA_DELAY_MS = process.env.KUBERA_DELAY_MS || 2500;
 const YNAB_JSON_FILE = process.env.YNAB_JSON_FILE || 'ynab_accounts.json';
 const KUBERA_BASE_URL = 'https://api.kubera.com';
 
 const BUDGET_GROUP_MAP = {
     '6ae4c733-6842-4120-a33b-266f78e8a9a4': 'f616723a-702b-40ab-92a9-d82d78bddd85', // Thailand
-    'bf0e7966-51b6-4e11-90a5-fd0db523ac71': '6e3bd812-96c3-47bf-af1d-0641588ecaba' // Mexico
+    'bf0e7966-51b6-4e11-90a5-fd0db523ac71': '6e3bd812-96c3-47bf-af1d-0641588ecaba', // Mexico
+    '3383846a-bd9a-4157-8077-0c02125e532f': '86955fba-4ff0-4d23-8a94-e91933ce189' // Hong Kong
 };
 
 if (!KUBERA_API_KEY || !KUBERA_API_SECRET) {
@@ -104,13 +106,13 @@ async function syncAll() {
         };
   
         await updateKuberaItem({ balance: total }, syntheticMap);
-        await sleep(2500); // 2.5 seconds = ~24 requests per minute
+        await sleep(KUBERA_DELAY_MS);
   
         processedBudgetIds.add(budgetId);
       } else {
         // Normal item-by-item update
         await updateKuberaItem(account, map);
-        await sleep(2500); // 2.5 seconds = ~24 requests per minute
+        await sleep(KUBERA_DELAY_MS);
       }
     }
   }
