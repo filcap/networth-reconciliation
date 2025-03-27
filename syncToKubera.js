@@ -8,6 +8,11 @@ const KUBERA_API_SECRET = process.env.KUBERA_API_SECRET;
 const YNAB_JSON_FILE = process.env.YNAB_JSON_FILE || 'ynab_accounts.json';
 const KUBERA_BASE_URL = 'https://api.kubera.com';
 
+const BUDGET_GROUP_MAP = {
+    '6ae4c733-6842-4120-a33b-266f78e8a9a4': 'f616723a-702b-40ab-92a9-d82d78bddd85', // Thailand
+    'bf0e7966-51b6-4e11-90a5-fd0db523ac71': '6e3bd812-96c3-47bf-af1d-0641588ecaba' // Mexico
+};
+
 if (!KUBERA_API_KEY || !KUBERA_API_SECRET) {
   console.error("❌ Missing KUBERA_API_KEY or KUBERA_API_SECRET in .env");
   process.exit(1);
@@ -22,6 +27,10 @@ function generateSignature(apiKey, secret, timestamp, path, method = 'POST', bod
     .createHmac('sha256', secret)
     .update(dataToSign)
     .digest('hex');
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 async function updateKuberaItem(account, map) {
@@ -59,16 +68,51 @@ async function updateKuberaItem(account, map) {
 }
 
 async function syncAll() {
-  console.log('\n🔄 Syncing YNAB accounts to Kubera:\n');
-
-  for (const account of accounts) {
-    const map = mapping[account.id];
-    if (!map || !map.kubera_account_id || map.kubera_account_id.trim() === '') {
-      continue;
+    console.log('\n🔄 Syncing YNAB accounts to Kubera:\n');
+  
+    const processedBudgetIds = new Set();
+  
+    for (const account of accounts) {
+      const map = mapping[account.id];
+      if (!map || !map.kubera_account_id || map.kubera_account_id.trim() === '') {
+        continue;
+      }
+  
+      const budgetId = account.budget_id;
+  
+      // 🧠 Special case: budget is in group map
+      if (BUDGET_GROUP_MAP[budgetId]) {
+        if (processedBudgetIds.has(budgetId)) continue;
+  
+        const groupAccounts = accounts.filter(a =>
+          a.budget_id === budgetId &&
+          !a.deleted && !a.closed &&
+          mapping[a.id] &&
+          mapping[a.id].kubera_account_id &&
+          mapping[a.id].kubera_account_id.trim() !== ''
+        );
+  
+        const total = groupAccounts.reduce((sum, a) => sum + a.balance, 0);
+        const targetKuberaId = BUDGET_GROUP_MAP[budgetId];
+        const currency = mapping[groupAccounts[0].id].currency;
+  
+        const syntheticMap = {
+          budget_name: mapping[groupAccounts[0].id].budget_name,
+          ynab_account_name: 'Total (Grouped)',
+          kubera_account_id: targetKuberaId,
+          currency: currency
+        };
+  
+        await updateKuberaItem({ balance: total }, syntheticMap);
+        await sleep(2500); // 2.5 seconds = ~24 requests per minute
+  
+        processedBudgetIds.add(budgetId);
+      } else {
+        // Normal item-by-item update
+        await updateKuberaItem(account, map);
+        await sleep(2500); // 2.5 seconds = ~24 requests per minute
+      }
     }
-
-    await updateKuberaItem(account, map);
   }
-}
 
 syncAll();

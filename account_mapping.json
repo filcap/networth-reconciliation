@@ -159,7 +159,7 @@
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udd11 Security Deposits",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "0da567c0-5c94-4939-b1a3-b801c8c28615"
   },
   "86237fb8-6993-41d8-9cdb-7082dbdeb94f": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
@@ -807,42 +807,42 @@
     "budget_name": "\ud83c\uddf9\ud83c\udded Thailand",
     "ynab_account_name": "Cash",
     "currency": "THB",
-    "kubera_account_id": ""
+    "kubera_account_id": "f616723a-702b-40ab-92a9-d82d78bddd85"
   },
   "202d9d3e-1b64-4c64-b366-39b520e3374a": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\ud83d\udcb0 Cash",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   },
   "161cda45-b35d-4ecd-b3c9-cc369770cdbb": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\ud83d\udcb8 BBVA Checking",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   },
   "a99534e5-e259-497d-a688-77932c47bab4": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\ud83d\uddf3 Security Deposit",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   },
   "811441bd-ce4b-4ade-80f3-3e13af2c2170": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\ud83d\udcb3 BBVA Azul Visa",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   },
   "425027c3-136c-4976-b664-c5ef99caf09f": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\ud83c\udfb0 caliente.mx",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   },
   "e504d092-c20f-464a-ac89-d2e0a198fdaf": {
     "budget_name": "\ud83c\uddf2\ud83c\uddfd Mexico",
     "ynab_account_name": "\u2708\ufe0f BBVA Points",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
   }
 }
