@@ -3,15 +3,12 @@
 
 This project automates syncing your YNAB account balances to Kubera to keep your net worth dashboard up to date.
 
----
-
 ## 🧰 Prerequisites
 
 - Node.js v18+ recommended
 - A Kubera API Key + Secret
 - A YNAB Personal Access Token
 
----
 
 ## ⚙️ Setup
 
@@ -40,7 +37,6 @@ This project automates syncing your YNAB account balances to Kubera to keep your
    KUBERA_DELAY_MS=2500
    ```
 
----
 
 ## 🚀 First-Time Usage
 
@@ -54,7 +50,7 @@ node getAccounts.js
 
 > 💡 Make sure your `.env` contains valid YNAB token and budget IDs.
 
----
+
 
 ### Step 2: Set Up Account Mapping
 
@@ -73,7 +69,7 @@ Use the generated `ynab_accounts.json` to create a `account_mapping.json`. Use t
 
 Only fill in the `kubera_account_id` for the accounts you want to sync.
 
----
+
 
 ### Step 3: Run the Sync
 
@@ -88,7 +84,7 @@ This will:
 - Update the corresponding Kubera items
 - Automatically respect Kubera's API rate limit
 
----
+
 
 ## 🧮 Grouped Budgets (`BUDGET_GROUP_MAP`)
 
@@ -103,7 +99,7 @@ const BUDGET_GROUP_MAP = {
 };
 ```
 
----
+
 
 ## ⏱ Rate Limiting
 
@@ -115,7 +111,7 @@ KUBERA_DELAY_MS=2500
 
 You can adjust this in `.env` if needed.
 
----
+
 
 ## ✅ TODO / Future Enhancements
 
@@ -123,7 +119,6 @@ You can adjust this in `.env` if needed.
 - Automatically retry failed updates
 - Export sync logs to file
 
----
 
 ## 📫 Questions?
 
