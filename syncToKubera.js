@@ -12,7 +12,7 @@ const KUBERA_BASE_URL = 'https://api.kubera.com';
 const BUDGET_GROUP_MAP = {
     '6ae4c733-6842-4120-a33b-266f78e8a9a4': 'f616723a-702b-40ab-92a9-d82d78bddd85', // Thailand
     'bf0e7966-51b6-4e11-90a5-fd0db523ac71': '6e3bd812-96c3-47bf-af1d-0641588ecaba', // Mexico
-    '3383846a-bd9a-4157-8077-0c02125e532f': '86955fba-4ff0-4d23-8a94-e91933ce189' // Hong Kong
+    '3383846a-bd9a-4157-8077-0c02125e532f': '86955fba-4ff0-4d23-8a94-e91933ce189f' // Hong Kong
 };
 
 if (!KUBERA_API_KEY || !KUBERA_API_SECRET) {
@@ -46,6 +46,34 @@ function countMappedKuberaAccounts(mapping) {
   }
 
   return uniqueIds.size;
+}
+
+async function fetchKuberaPortfolioItems() {
+  const portfolioId = process.env.KUBERA_PORTFOLIO_ID;
+  if (!portfolioId) {
+    console.error("❌ Missing KUBERA_PORTFOLIO_ID in .env");
+    return [];
+  }
+
+  const path = `/api/v3/data/portfolio/${portfolioId}`;
+  const timestamp = Math.floor(Date.now() / 1000);
+  const signature = generateSignature(KUBERA_API_KEY, KUBERA_API_SECRET, timestamp, path, 'GET');
+
+  const headers = {
+    'x-api-token': KUBERA_API_KEY,
+    'x-timestamp': timestamp,
+    'x-signature': signature,
+    'Content-Type': 'application/json'
+  };
+
+  try {
+    const response = await axios.get(`${KUBERA_BASE_URL}${path}`, { headers });
+    console.log(`📥 Loaded portfolio (${portfolioId}) with ${response.data?.data?.asset?.length || 0} assets`);
+    return response.data?.data?.asset || [];
+  } catch (err) {
+    console.error("❌ Failed to fetch portfolio data:", err.response?.data || err.message);
+    return [];
+  }
 }
 
 async function updateKuberaItem(account, map) {
@@ -86,6 +114,8 @@ async function syncAll() {
     const totalMappedKuberaAccounts = countMappedKuberaAccounts(mapping);
     console.log(`\n📦 ${totalMappedKuberaAccounts} unique Kubera accounts mapped.`);
 
+    const portfolioItems = await fetchKuberaPortfolioItems();
+
     console.log('\n🔄 Syncing YNAB accounts to Kubera:\n');
   
     const processedBudgetIds = new Set();
@@ -121,14 +151,24 @@ async function syncAll() {
           currency: currency
         };
   
-        await updateKuberaItem({ balance: total }, syntheticMap);
-        await sleep(KUBERA_DELAY_MS);
+        const portfolioItem = portfolioItems.find(item => item.id === map.kubera_account_id);
+        if(portfolioItem.value.amount !== total) {
+          await updateKuberaItem({ balance: total }, syntheticMap);
+          await sleep(KUBERA_DELAY_MS);
+        } else {
+          console.log(`⏭ Skipped ${portfolioItem.name}`);
+        }
   
         processedBudgetIds.add(budgetId);
       } else {
         // Normal item-by-item update
-        await updateKuberaItem(account, map);
-        await sleep(KUBERA_DELAY_MS);
+        const portfolioItem = portfolioItems.find(item => item.id === map.kubera_account_id);
+        if(portfolioItem.value.amount !== account.balance) {
+          await updateKuberaItem(account, map);
+          await sleep(KUBERA_DELAY_MS);
+        } else {
+          console.log(`⏭ Skipped ${portfolioItem.name}`);
+        }
       }
     }
   }
