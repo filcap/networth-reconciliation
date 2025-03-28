@@ -36,7 +36,7 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-function fixValue(account) {
+function fixValueForKubera(account) {
   return  account.type === 'creditCard' || 
           account.type === 'otherDebt' || 
           account.type === 'otherLiability' ||
@@ -96,7 +96,7 @@ async function updateKuberaItem(account, map) {
   const timestamp = Math.floor(Date.now() / 1000);
 
   const body = {
-    value: fixValue(account)
+    value: fixValueForKubera(account)
   };
 
   const payload = JSON.stringify(body);
@@ -172,7 +172,7 @@ async function syncAll() {
           continue;
         }
 
-        if(portfolioItem.value.amount !== fixValue(account)) {
+        if(portfolioItem.value.amount !== fixValueForKubera(account)) {
           await updateKuberaItem(account, map);
           await sleep(KUBERA_DELAY_MS);
         }
