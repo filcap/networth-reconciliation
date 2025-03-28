@@ -36,6 +36,10 @@ function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function fixValue(account) {
+  return account.type === 'creditCard' || account.type === 'otherDebt' ? -1 * account.balance : account.balance;
+}
+
 function countMappedKuberaAccounts(mapping) {
   const uniqueIds = new Set();
 
@@ -76,7 +80,7 @@ async function fetchKuberaPortfolioItems() {
     return [...assets, ...debts];
   } catch (err) {
     console.error("❌ Failed to fetch portfolio data:", err.response?.data || err.message);
-    return [];
+    process.exit(1);
   }
 }
 
@@ -88,7 +92,7 @@ async function updateKuberaItem(account, map) {
   const timestamp = Math.floor(Date.now() / 1000);
 
   const body = {
-    value: Math.abs(account.balance)
+    value: fixValue(account)
   };
 
   const payload = JSON.stringify(body);
@@ -164,7 +168,7 @@ async function syncAll() {
           continue;
         }
 
-        if(portfolioItem.value.amount !== Math.abs(account.balance)) {
+        if(portfolioItem.value.amount !== fixValue(account)) {
           await updateKuberaItem(account, map);
           await sleep(KUBERA_DELAY_MS);
         }
