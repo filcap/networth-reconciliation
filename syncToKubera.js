@@ -69,7 +69,10 @@ async function fetchKuberaPortfolioItems() {
   try {
     const response = await axios.get(`${KUBERA_BASE_URL}${path}`, { headers });
     console.log(`📥 Loaded portfolio (${portfolioId}) with ${response.data?.data?.asset?.length || 0} assets`);
-    return response.data?.data?.asset || [];
+    console.log(`📥 Loaded portfolio (${portfolioId}) with ${response.data?.data?.debt?.length || 0} debts`);
+    const assets = response.data?.data?.asset || [];
+    const debts = response.data?.data?.debt || [];
+    return [...assets, ...debts];
   } catch (err) {
     console.error("❌ Failed to fetch portfolio data:", err.response?.data || err.message);
     return [];
@@ -84,7 +87,7 @@ async function updateKuberaItem(account, map) {
   const timestamp = Math.floor(Date.now() / 1000);
 
   const body = {
-    value: account.balance
+    value: Math.abs(account.balance)
   };
 
   const payload = JSON.stringify(body);
@@ -155,19 +158,20 @@ async function syncAll() {
         if(portfolioItem.value.amount !== total) {
           await updateKuberaItem({ balance: total }, syntheticMap);
           await sleep(KUBERA_DELAY_MS);
-        } else {
-          console.log(`⏭ Skipped ${portfolioItem.name}`);
         }
   
         processedBudgetIds.add(budgetId);
       } else {
         // Normal item-by-item update
         const portfolioItem = portfolioItems.find(item => item.id === map.kubera_account_id);
-        if(portfolioItem.value.amount !== account.balance) {
+        if(!portfolioItem) {
+          console.error(`❌ No mapping found for ${account.name}`);
+          continue;
+        }
+
+        if(portfolioItem.value.amount !== Math.abs(account.balance)) {
           await updateKuberaItem(account, map);
           await sleep(KUBERA_DELAY_MS);
-        } else {
-          console.log(`⏭ Skipped ${portfolioItem.name}`);
         }
       }
     }
