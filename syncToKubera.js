@@ -37,7 +37,11 @@ function sleep(ms) {
 }
 
 function fixValue(account) {
-  return account.type === 'creditCard' || account.type === 'otherDebt' ? -1 * account.balance : account.balance;
+  return  account.type === 'creditCard' || 
+          account.type === 'otherDebt' || 
+          account.type === 'otherLiability' ||
+          account.type === 'mortgage'
+            ? -1 * account.balance : account.balance;
 }
 
 function countMappedKuberaAccounts(mapping) {
