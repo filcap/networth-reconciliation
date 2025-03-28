@@ -116,7 +116,7 @@ async function syncAll() {
 
     const portfolioItems = await fetchKuberaPortfolioItems();
 
-    console.log('\n🔄 Syncing YNAB accounts to Kubera:\n');
+    console.log('🔄 Syncing YNAB accounts to Kubera:\n');
   
     const processedBudgetIds = new Set();
   
