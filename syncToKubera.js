@@ -7,6 +7,7 @@ const KUBERA_API_KEY = process.env.KUBERA_API_KEY;
 const KUBERA_API_SECRET = process.env.KUBERA_API_SECRET;
 const KUBERA_DELAY_MS = process.env.KUBERA_DELAY_MS || 2500;
 const YNAB_JSON_FILE = process.env.YNAB_JSON_FILE || 'ynab_accounts.json';
+const MAPPING_FILE = process.env.MAPPING_FILE || 'account_mapping.json';
 const KUBERA_BASE_URL = 'https://api.kubera.com';
 
 const BUDGET_GROUP_MAP = {
@@ -21,7 +22,7 @@ if (!KUBERA_API_KEY || !KUBERA_API_SECRET) {
 }
 
 const accounts = JSON.parse(fs.readFileSync(YNAB_JSON_FILE));
-const mapping = JSON.parse(fs.readFileSync('account_mapping.json'));
+const mapping = JSON.parse(fs.readFileSync(MAPPING_FILE));
 
 function generateSignature(apiKey, secret, timestamp, path, method = 'POST', body = '') {
   const dataToSign = `${apiKey}${timestamp}${method}${path}${body}`;
@@ -100,11 +101,6 @@ async function updateKuberaItem(account, map) {
     'Content-Type': 'application/json'
   };
 
-  // console.log(`\n🔧 Request Preview for ${label}`);
-  // console.log(`POST ${KUBERA_BASE_URL}${path}`);
-  // console.log('Headers:', headers);
-  // console.log('Body:', payload);
-
   try {
     const response = await axios.post(`${KUBERA_BASE_URL}${path}`, body, { headers });
     console.log(`✅ Updated ${label}: ${account.balance.toFixed(2)} ${currency}`);
@@ -118,7 +114,6 @@ async function syncAll() {
     console.log(`\n📦 ${totalMappedKuberaAccounts} unique Kubera accounts mapped.`);
 
     const portfolioItems = await fetchKuberaPortfolioItems();
-
     console.log('🔄 Syncing YNAB accounts to Kubera:\n');
   
     const processedBudgetIds = new Set();

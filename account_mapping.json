@@ -99,19 +99,19 @@
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83c\udfd8 Portico Ametrine 4019",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "9c9a1032-d432-429a-98d3-67faeee66be6"
   },
   "177a0d02-24a9-4524-937f-2eb56000c2d4": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83c\udd7f\ufe0f Portico Parking B4 116",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "b92e8c94-cf94-43a3-9643-eb6c7a7da798"
   },
   "e2c41d6c-728a-49a9-80c2-2921471921e4": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83c\udfd7\ufe0f Alviera at Versala B39 L32",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "35ee94bd-ad84-45b6-a427-6db234f36761"
   },
   "4709ba86-2bed-475b-b756-19f5129ca253": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
@@ -129,19 +129,19 @@
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udcdd Portico Condo Loan",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "f2c846de-3a2e-428a-82d0-3b1393e05086"
   },
   "a0485f39-cb46-4fea-a854-838d819e8e46": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udcdd Portico Parking Loan",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "0ddb663b-8753-41f7-ac7a-0288b4a9ec2b"
   },
   "6224b089-5cc0-447b-a2d0-21904fd34133": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udcdd Alviera Loan",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "431ca4dd-4adc-41d9-a60e-0a6614012087"
   },
   "d6e41184-2cdc-47d5-a992-b3a8bf8b7cc3": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
@@ -219,7 +219,7 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83c\uddfa\ud83c\uddf8 USD",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "ee22cfca-1861-46d3-a283-02e88f48b9ca"
   },
   "25d3af71-28bd-4ffd-86b1-62cddab29286": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -309,7 +309,7 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\u2696\ufe0f Ameris Visa Platinum",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "1c8cc8ef-bacc-4048-a588-edb9d91eaf7b"
   },
   "5ce7d7d1-c64c-4305-b0e4-99c8d9303bea": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -327,7 +327,7 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83d\udcb0 Penn Mutual WL",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "7cf8bb83-bbd1-45f7-9b10-c46fa7ff2e7c"
   },
   "662de3b7-9746-4f2c-951b-63921919875a": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -339,13 +339,13 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83d\udcb0 Treasury Direct",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "d91d3186-bb35-4452-b0c8-6fe551f3a2d0"
   },
   "7a82faaf-73c3-4730-8c6b-6c4ba8f7b317": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83c\udfe6 Penn Mutual Policy Loan",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "5708cef5-40bd-440e-87e6-41dd89f7e773"
   },
   "174aec3a-0343-4439-af9f-2c81cd4f5c3a": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -393,7 +393,7 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83c\udfda Norada Note",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "d13f1e46-45d7-4905-afa0-b7a935895fe9"
   },
   "673ca0a7-6682-418d-91df-2330a99d41e1": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -411,7 +411,7 @@
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
     "ynab_account_name": "\ud83c\udfdd Roth IRA (Inspira)",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "8242462d-e066-44a4-a7b7-bdafd9c8a72b"
   },
   "f691a6a7-e196-42f0-9258-d3732468b74e": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
@@ -603,7 +603,7 @@
     "budget_name": "\ud83c\udfe0 FilCap Investments",
     "ynab_account_name": "\ud83d\udcbc Spartan Invest",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "c6d47b92-06b1-438c-8761-4daf2da0fda4"
   },
   "5745a8bc-7643-4f6a-bc58-8ba87a73ab4c": {
     "budget_name": "\ud83c\udfe0 FilCap Investments",
@@ -711,7 +711,7 @@
     "budget_name": "\ud83c\udfe0 FilCap Investments",
     "ynab_account_name": "\ud83c\udfd8 AL1 (Alvin)",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "3e7b905e-be10-4665-bdfb-ec6cb13ddc8f"
   },
   "b788de11-29e6-4d83-a90c-6d63eb97cfbb": {
     "budget_name": "\ud83c\udfe0 FilCap Investments",
@@ -747,7 +747,7 @@
     "budget_name": "\ud83c\udfe0 FilCap Investments",
     "ynab_account_name": "\ud83c\udfe6 AMEX Line of Credit",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "87a2402a-9e99-44e2-b9a5-2b022acc1cff"
   },
   "47f33da1-41a2-4094-b486-d85735062ebd": {
     "budget_name": "\ud83c\udfe0 FilCap Investments",
@@ -777,13 +777,13 @@
     "budget_name": "\ud83c\udfe0 FilCap Investments",
     "ynab_account_name": "\ud83d\udd11 Security Deposits",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "7472e6c3-3c75-49cc-822c-2d7fc13f7fbb"
   },
   "6734c1e6-6826-4dd5-9b72-332f5647f0cb": {
     "budget_name": "\ud83c\udfe0 FilCap Investments",
     "ynab_account_name": "\ud83e\uddd1\ud83c\udffe\u200d\u2696\ufe0f Enra Law",
     "currency": "",
-    "kubera_account_id": ""
+    "kubera_account_id": "654a5256-7154-43fb-a84c-ed3c9ac8aa57"
   },
   "7784dcfe-c78f-4e7f-9bf5-49df07b7b7c7": {
     "budget_name": "\ud83c\udfe0 FilCap Investments",
