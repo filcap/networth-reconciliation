@@ -31,9 +31,11 @@ This project automates syncing your YNAB account balances to Kubera to keep your
    YNAB_TOKEN=your_ynab_access_token
    YNAB_BUDGET_IDS=budget_id_1,budget_id_2,...
    YNAB_JSON_FILE=ynab_accounts.json
+   MAPPING_FILE=account_mapping.json
 
    KUBERA_API_KEY=your_kubera_api_key
    KUBERA_API_SECRET=your_kubera_api_secret
+   KUBERA_PORTFOLIO_ID=your_kubera_portfolio_id
    KUBERA_DELAY_MS=2500
    ```
 
