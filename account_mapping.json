@@ -165,13 +165,13 @@
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udd6f\ufe0f Kandeladia",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "358fdc75-edb6-417f-96f8-c33cb087e41e"
   },
   "7660e469-f467-4d9c-8d96-67c9119bcc17": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
     "ynab_account_name": "\ud83d\udc85\ud83c\udffd Lokahi",
     "currency": "PHP",
-    "kubera_account_id": ""
+    "kubera_account_id": "7c01b44d-7cbe-4bb2-a411-2e7a816eb903"
   },
   "b110825d-f04b-42af-9d2f-7193fd0db98b": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
@@ -388,6 +388,12 @@
     "ynab_account_name": "\ud83e\udde7 Crypto",
     "currency": "",
     "kubera_account_id": ""
+  },
+  "cfd6e71c-caf0-4825i-b4e0-154432934ff6": {
+      "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
+      "ynab_account_name": "\uD83D\uDCB3 Reap Technologies",
+      "currency": "",
+      "kubera_account_id": "facd3ca6-9d3c-4bed-b417-92f93eee3d09"
   },
   "dde7342b-3b75-4b8b-a247-e307afa1fd38": {
     "budget_name": "\ud83c\uddfa\ud83c\uddf8 United States",
