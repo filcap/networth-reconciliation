@@ -850,5 +850,17 @@
     "ynab_account_name": "\u2708\ufe0f BBVA Points",
     "currency": "",
     "kubera_account_id": "6e3bd812-96c3-47bf-af1d-0641588ecaba"
+  },
+  "47a48dcc-ab15-4071-8c06-38f115f86e16": {
+    "budget_name": "Vietnam",
+    "ynab_account_name": "Cash",
+    "currency": "VND",
+    "kubera_account_id": "7524ca42-5d90-4cfc-8925-1f1dede9445d"
+  },
+  "7eb17df5-c628-4637-b4ed-c19a5df5d881": {
+    "budget_name": "Singapore",
+    "ynab_account_name": "Cash",
+    "currency": "SGD",
+    "kubera_account_id": "8796ba38-5709-4f18-bce1-419f8ab568d8"
   }
 }

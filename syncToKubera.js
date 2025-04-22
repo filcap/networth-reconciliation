@@ -13,7 +13,9 @@ const KUBERA_BASE_URL = 'https://api.kubera.com';
 const BUDGET_GROUP_MAP = {
     '6ae4c733-6842-4120-a33b-266f78e8a9a4': 'f616723a-702b-40ab-92a9-d82d78bddd85', // Thailand
     'bf0e7966-51b6-4e11-90a5-fd0db523ac71': '6e3bd812-96c3-47bf-af1d-0641588ecaba', // Mexico
-    '3383846a-bd9a-4157-8077-0c02125e532f': '86955fba-4ff0-4d23-8a94-e91933ce189f' // Hong Kong
+    '3383846a-bd9a-4157-8077-0c02125e532f': '86955fba-4ff0-4d23-8a94-e91933ce189f', // Hong Kong
+    'b8c1a9f0-1370-4f1b-9324-4e37c74417ee': '8796ba38-5709-4f18-bce1-419f8ab568d8', // Singapore
+    '45681778-7b92-440f-822d-c4074dc8bd9b': '7524ca42-5d90-4cfc-8925-1f1dede9445d' // Vietnam
 };
 
 if (!KUBERA_API_KEY || !KUBERA_API_SECRET) {
