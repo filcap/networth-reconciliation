@@ -862,5 +862,11 @@
     "ynab_account_name": "Cash",
     "currency": "SGD",
     "kubera_account_id": "8796ba38-5709-4f18-bce1-419f8ab568d8"
+  },
+  "1633008b-8021-406c-ba4f-a6504b9c629d": {
+    "budget_name": "USA",
+    "ynab_account_name": "Chase UR Points",
+    "currency": "",
+    "kubera_account_id": "5c4915d8-f773-4717-9faf-e933230850ba"
   }
 }
