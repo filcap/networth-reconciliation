@@ -862,5 +862,11 @@
     "ynab_account_name": "Chase UR Points",
     "currency": "",
     "kubera_account_id": "5c4915d8-f773-4717-9faf-e933230850ba"
+  }, 
+  "06030aaf-033f-492d-82b4-5817abef4a21": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "Somyot Lot in Siargao",
+    "currency": "PHP",
+    "kubera_account_id": "fa8e815d-e9bc-4d3b-8d67-39d963a97832"
   }
 }
