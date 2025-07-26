@@ -865,8 +865,20 @@
   }, 
   "06030aaf-033f-492d-82b4-5817abef4a21": {
     "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
-    "ynab_account_name": "Somyot Lot in Siargao",
+    "ynab_account_name": "Burgos Lot in Siargao",
     "currency": "PHP",
     "kubera_account_id": "fa8e815d-e9bc-4d3b-8d67-39d963a97832"
+  },
+  "23762dff-d274-4701-9b59-bc55b68c13c4": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "AC Tolentino-OCampo Law",
+    "currency": "PHP",
+    "kubera_account_id": "130d8309-b387-418b-a917-ffae23baf9e3"
+  },
+  "29ffd732-4386-44ac-8d51-7de2a4be7245": {
+    "budget_name": "\ud83c\uddf5\ud83c\udded Philippines",
+    "ynab_account_name": "CIMB Revi Credit",
+    "currency": "PHP",
+    "kubera_account_id": "9ba90cf2-f7b7-44f1-8b56-2835f4c0f25b"
   }
 }
