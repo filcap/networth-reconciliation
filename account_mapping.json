@@ -880,5 +880,11 @@
     "ynab_account_name": "CIMB Revi Credit",
     "currency": "PHP",
     "kubera_account_id": "9ba90cf2-f7b7-44f1-8b56-2835f4c0f25b"
+  },
+  "40512415-abe3-4060-9cf9-de80bd416a63": {
+    "budget_name": "USA",
+    "ynab_account_name": "Moreta Pay",
+    "currency": "",
+    "kubera_account_id": "ceb9bbe6-4fd8-4dde-8175-204b947acbbb"
   }
 }
