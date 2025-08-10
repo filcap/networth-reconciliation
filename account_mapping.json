@@ -886,5 +886,17 @@
     "ynab_account_name": "Moreta Pay",
     "currency": "",
     "kubera_account_id": "ceb9bbe6-4fd8-4dde-8175-204b947acbbb"
+  },
+  "752eaa2d-9ee1-4657-bc00-846dfe1884ae": {
+    "budget_name": "PHP",
+    "ynab_account_name": "Sentrivo at Cloverleaf",
+    "currency": "",
+    "kubera_account_id": "ec705853-5cab-4443-ae30-2415fea0a850"
+  },
+  "ed939a9c-74ff-4b4a-8dc0-7830ad41d43d": {
+    "budget_name": "PHP",
+    "ynab_account_name": "Sentrivo Loan",
+    "currency": "",
+    "kubera_account_id": "bc341796-abfe-4524-9c6c-f68ccde63dde"
   }
 }
