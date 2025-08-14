@@ -898,5 +898,11 @@
     "ynab_account_name": "Sentrivo Loan",
     "currency": "",
     "kubera_account_id": "bc341796-abfe-4524-9c6c-f68ccde63dde"
+  },
+  "acab34af-3988-4cd6-a590-bcdfe5ad810a": {
+    "budget_name": "PHP",
+    "ynab_account_name": "Seabank Credit",
+    "currency": "PHP",
+    "kubera_account_id": "4b8e5e4b-3f9a-403c-927f-2009c1baf5ef"
   }
 }
