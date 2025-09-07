@@ -904,5 +904,11 @@
     "ynab_account_name": "Seabank Credit",
     "currency": "PHP",
     "kubera_account_id": "4b8e5e4b-3f9a-403c-927f-2009c1baf5ef"
+  },
+  "4849e109-7063-4b02-9e85-8bfbcfc42b36": {
+    "budget_name": "USA",
+    "ynab_account_name": "Coinbase One Card",
+    "currency": "",
+    "kubera_account_id": "1c81e288-e886-4aec-904a-c35846392976"
   }
 }
