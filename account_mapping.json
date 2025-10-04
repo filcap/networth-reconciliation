@@ -910,5 +910,11 @@
     "ynab_account_name": "Coinbase One Card",
     "currency": "",
     "kubera_account_id": "1c81e288-e886-4aec-904a-c35846392976"
+  },
+  "e18842b1-3424-4a52-b85f-30098b11a5b4": {
+    "budget_name": "USA",
+    "ynab_account_name": "PDAX",
+    "currency": "",
+    "kubera_account_id": "36844663-64e5-4ac1-9b7a-efd9520932d1"
   }
 }
