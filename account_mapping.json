@@ -910,5 +910,11 @@
     "ynab_account_name": "Coinbase Lending Morpho",
     "currency": "",
     "kubera_account_id": "08e8f111-6934-4763-82f0-2fb3aa05cd98"
+  },
+    "859d92cf-a778-422b-b043-003d6d70ab5e": {
+    "budget_name": "USA",
+    "ynab_account_name": "UUWallet",
+    "currency": "",
+    "kubera_account_id": "48a0c28b-ad99-420e-8f0e-322cf78b9979"
   }
 }
