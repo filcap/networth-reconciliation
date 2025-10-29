@@ -905,18 +905,6 @@
     "currency": "",
     "kubera_account_id": "1c81e288-e886-4aec-904a-c35846392976"
   },
-  "e18842b1-3424-4a52-b85f-30098b11a5b4": {
-    "budget_name": "USA",
-    "ynab_account_name": "PDAX USDC",
-    "currency": "",
-    "kubera_account_id": "36844663-64e5-4ac1-9b7a-efd9520932d1"
-  },
-  "ed1745d0-7958-43ae-8b76-157936a0c833": {
-    "budget_name": "USA",
-    "ynab_account_name": "PDAX USDT",
-    "currency": "",
-    "kubera_account_id": "3e024bf6-b055-4146-a066-bdb879c67606"
-  },
   "0f2c561a-0536-4dd2-ad63-0bbc0c183b65": {
     "budget_name": "USA",
     "ynab_account_name": "Coinbase Lending Morpho",
