@@ -916,5 +916,11 @@
     "ynab_account_name": "UUWallet",
     "currency": "",
     "kubera_account_id": "48a0c28b-ad99-420e-8f0e-322cf78b9979"
+  },
+    "d2aa0c95-e75d-4288-9864-d37f721ac4df": {
+    "budget_name": "Philippines",
+    "ynab_account_name": "Coins.ph",
+    "currency": "PHP",
+    "kubera_account_id": "903fcb99-2021-4004-b46e-fee2506cbe7b"
   }
 }
